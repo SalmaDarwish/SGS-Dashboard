@@ -3,7 +3,7 @@ var options = {
   chart: {
     type: "donut",
   },
-  colors: ["#ffc404","#1ab7ea"],
+  colors: ["#5c5173","#ffc404"],
 
   legend: {
     show: false,

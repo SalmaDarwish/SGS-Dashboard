@@ -1,6 +1,7 @@
 /* Variables -----  */
 :root{
-    --primary-color: #7e4dfd
+    --primary-color: #5c5173
+
 
 
 }
@@ -13,7 +14,11 @@
 body{
 
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(245, 244, 242);
+    /* background-color: rgba(128,0,128,0.2) */
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .pointer{
     cursor: pointer;
