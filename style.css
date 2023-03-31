@@ -1,6 +1,7 @@
 /* Variables -----  */
 :root{
-    --primary-color: #ffc404
+    --primary-color: #7e4dfd
+
 
 }
 
@@ -25,17 +26,20 @@ body{
 /* Navbar Styles ------------- */
 
 .nav-link:focus, .nav-link:hover {
-    color: white !important;
+    color: black !important;
     font-weight: bold;
 }
-
+.nav-link {
+    color: white !important;
+}
 .nav-icon{
     color: black;
     cursor: pointer;
 }
 .nav-icon:hover{
-    color: white;
+    color: black !important;
 }
+
 .fa-bell::after{
     position: absolute;
     content:"";
@@ -49,6 +53,8 @@ body{
 
 /* Navbar Styles ------------- */
 
+
+/* Dashboard Styles -------------  */
 .announcement::after{
     background-image: url("images/wireless-communication-network-diagrams-icons-abstract-business-backgrounds-internet-things-concepts-wireless-150559344.jpg");
     background-blend-mode: color-burn;
@@ -82,3 +88,23 @@ button{
 .fa-check{
 background-color: rgb(4, 148, 4);
 }
+.row-head{
+    width: 12%;
+}
+td{
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+/* Dashboard Styles -------------  */
+
+
+/* Media Queries --------- */
+
+@media only screen and (max-width: 1200px) {
+   .available-funds{
+    margin-top: 2rem;
+   }
+  }
+
+/* Media Queries --------- */
